@@ -24,7 +24,7 @@ const Hero =() =>{
                   <div className=" lg:mt-12 sm:mt-12 mt-8 md:gap-16 gap-6 text-text_color  flex lg:justify-start justify-center mx-auto lg:flex-row sm:flex-row flex-col items-center ">
               
               <h4 className=" text-2xl  font-semibold text_text_color  underline">Call us:</h4>
-             <div className="flex flex-row gap-8">
+             <div className="flex lg:flex-row sm:flex-row flex-col  gap-8">
              <div className="flex flex-row gap-2 mt-2 items-center ">
                  <span className="text-text_color  text-3xl "> <ion-icon name="call" ></ion-icon></span>
                  <h4 className="font-semibold text-2xl mb-2">0758240063</h4>
